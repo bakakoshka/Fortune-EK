@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фортуна-ЕК</title>
+    <script src="https://kit.fontawesome.com/0b07886759.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/itc-slider.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+
+        <div class="header__logo">
+            <a href="index.html" class="logo-link">
+                <img src="img/logo.svg" alt="logo" class="logo-img">
+            </a>
+        </div>
+        <div class="header__search">
+            <input type="text" class="search-text" placeholder="Поиск">
+            <!-- <img src="img/search.svg" alt="search-icon" class="search-img"> -->
+        </div>
+        <div class="header__cart">
+            <img src="img/cart.svg" alt="cart-icon" class="cart-img">
+            <h1 class="cart-title">Корзина <span class="span-green">0</span></h1>
+            <p class="cart-text">на сумму: <span class="span-black">0 руб.</span></p>
+        </div>
+
+    </header>
+
+    <!-- menu -->
+    <nav class="nav">
+        <ul class="menu">
+            <li class="menu__item">
+                <a href="#medicine" class="menu-link">каталог</a>
+            </li>
+            <li class="menu__item">
+                <a href="#offers" class="menu-link">акции и спецпредложения</a>
+            </li>
+            <li class="menu__item">
+                <a href="#info" class="menu-link">узнать больше</a>
+            </li>
+            <li class="menu__item">
+                <a href="#map" class="menu-link">адреса аптек</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- акции и предложения -->
+    <section class="offers" id="offers">
+        <div class="offers__container">
+            <div class="container-text">
+                <h1 class="container-text__title">Витрум Иммунактив</h1>
+                <p class="container-text__subtitle">Новый усовершенствованный комплекс на замену Витрум Плюс</p>
+            </div>
+            <div class="container-img">
+                <img src="img/vitrumbox.png" alt="Витрум Иммунактив" class="container-img__img">
+            </div>
+        </div>
+    </section>
+
+    <section class="info" id="medicine">
+    <div class="info__container">
+        <div class="itc-slider info-slider" data-slider="itc-slider">
+            <div class="itc-slider-wrapper">
+            <div class="itc-slider-items">
+                <div class="itc-slider-item">
+                <img src="img/vitrumside.webp" alt="vitrum" class="img__slider">
+                </div>
+                <div class="itc-slider-item">
+                <!-- Контент 2 слайда -->
+                <img src="img/vitrumoffbox.jpg" alt="vitrum" class="img__slider">
+                </div>
+                <div class="itc-slider-item">
+                <!-- Контент 3 слайда -->
+                <img src="img/vitrumtube2.png" alt="vitrum" class="img__slider">
+                </div>
+            </div>
+            </div>
+            <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+            <button class="itc-slider-btn itc-slider-btn-prev"></button>
+            <button class="itc-slider-btn itc-slider-btn-next"></button>
+        </div>
+        <div class="info-text">
+            <h1 class="info-title">Витрум Иммунактив 
+            (таблетки)</h1>
+            <p class="info-subtitle">Витрум Иммунактив — новинка от Витрум, 
+                уникальный комплекс витаминов и 
+                минералов, разработанный под потребность поддержки иммунитета. Формула содержит 
+                13 витаминов и 8 минералов в одной 
+                таблетке, включая цинк и селен в высокой концентрации, а также бета‑глюканы — это природные вещества, которые активируют
+                местный и системный иммунитет</p>
+            <div class="info-buttons">
+                <div>
+                <button class="button-gray">
+                    Инструкция
+                </button></div>
+                <div>
+                <button class="button-green">
+                    Купить
+                </button></div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- полезные свойства -->
+    <section class="properties" id="info">
+        <div class="properties-card">
+            <div class="card__item">
+                <img src="img/tabletka.svg" alt="капсула" class="card__item-img">
+                <p class="card__item-text">
+                    максимум для крепкого иммунитета 
+                </p>
+            </div>
+
+            <div class="card__item">
+                <img src="img/stada.svg" alt="stada логотип" class="card__item-img">
+                <p class="card__item-text">
+                    бета-глюканы активируют иммунитет
+                </p>
+            </div>
+
+            <div class="card__item">
+                <img src="img/lemon.svg" alt="долька лимона" class="card__item-img">
+                <p class="card__item-text">
+                    для поддержания ресурсов организма
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="delivery">
+        <h1 class="form__title">Узнать больше</h1>
+        <div class="delivery_form">
+            <form action="#" class="delivery_form-form">
+                
+                <p>
+                    <input type="text" class="form_input" required placeholder="Имя" id="name">
+                </p>
+                <p>
+                    <input type="tel" class="form_input" required placeholder="+7 (___) ___-__-__">
+                </p>
+                <div class="row line">
+                    <h1 class="form__subtitle">Ваш пол</h1>
+
+                    <input type="radio" id="fem" name="gender" value="female" class="custom-radio">
+                    <label for="fem">Женский</label>
+
+                    <input type="radio" id="m" name="gender" value="male" class="custom-radio">
+                    <label for="m">Мужской</label>
+                    
+                </div>
+                <p class="full">
+                    <textarea cols="30" rows="10" placeholder="Комментарий" class="form_textarea"></textarea>
+                </p>
+                <div class="row row_check">
+                    <input type="checkbox" class="custom-checkbox" id="check">
+                   <label for="check">Мне нужна консультация фармацевта</label>
+                </div>
+                <p>
+                    <button class="button-green">Отправить заявку</button>
+                </p>
+            </form>
+            <div class="delivery__help">
+                <h1 class="help_title">Нужна помощь?</h1>
+                <h2 class="help_subtitile">Оставьте заявку и мы вам перезвоним</h2>
+            </div>
+        </div>
+    </section>
+    <section class="map" id="map">
+        <div class="map__help">
+            <h1 class="help_title">Адреса аптек</h1>
+            <h2 class="help_subtitile">Вы можете приобрести нашу новинку здесь</h2>
+        </div>
+        <div class="map-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2181.396879152219!2d60.649825583508964!3d56.85628854793069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16dcb67a4dc41%3A0x9407336b25376e50!2z0JrQvtC80YHQvtC80L7Qu9GM0YHQutCw0Y8g0YPQuy4sIDUsINCV0LrQsNGC0LXRgNC40L3QsdGD0YDQsywg0KHQstC10YDQtNC70L7QstGB0LrQsNGPINC-0LHQuy4sIDYyMDEzNw!5e0!3m2!1sru!2sru!4v1700556526743!5m2!1sru!2sru" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>    
+    </section>
+
+    <footer class="footer">
+        <div class="footer__logo">
+            <a href="index.html" class="logo-link">
+                <img src="img/logo.svg" alt="logo" class="logo-img">
+            </a>
+        </div>
+        <div class="footer__tel">
+            <i class="fa-solid fa-phone"></i>
+            <p class="tel-text">Связаться с нами</p>
+        </div>
+        <div class="footer__info">
+            <div class="footer__info_place">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="place-text">Екатеринбург, ул. Комсомольская 5</p>
+            </div>
+            <div class="footer__info_time">
+                <i class="fa-solid fa-clock"></i>
+                <p class="time-text">8:00-22:00 ежедневно</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/itc-slider.js" defer></script>
+</body>
+</html>
