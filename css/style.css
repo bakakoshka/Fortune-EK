@@ -374,6 +374,23 @@ to {
         text-align: center;
         width: 90%;
     }
+    .container-img {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-img__img {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 402px) {
+    .container-img__img {
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
 
 /* itc-slider */
