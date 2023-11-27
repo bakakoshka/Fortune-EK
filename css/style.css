@@ -997,10 +997,11 @@ input::placeholder, .form_textarea::placeholder {
     .footer__tel {
         margin-top: 20px;
         margin-bottom: 20px;
+        width: 50%;
     }
     
     .footer__info {
-        max-width: 35%;
+        max-width: 50%;
         text-align: center;
     }
 
@@ -1025,7 +1026,11 @@ input::placeholder, .form_textarea::placeholder {
 
 @media (max-width: 402px) {
     .footer__tel, .footer__info {
-        width: 80%;
+        width: 70%;
+    }
+
+    .fa-location-dot {
+        font-size: 23px;
     }
 }
 
@@ -1033,7 +1038,12 @@ input::placeholder, .form_textarea::placeholder {
     .footer__info {
         max-width: 70%;
     }
+
+    .footer_tel {
+        width: 35%;
+    }
 }
+
 /* fonts */
 @media (max-width:1300px) {
     .container-text__title {
@@ -1092,5 +1102,9 @@ input::placeholder, .form_textarea::placeholder {
 
     .footer__tel {
         font-size: 25px;
+    }
+
+    .fa-location-dot {
+        font-size: 23px;
     }
 }
