@@ -16,7 +16,7 @@
      --time: 5s;
  }
  
- body, textarea::placeholder, input::placeholder{
+ body, textarea::placeholder{
      font-family: 'Ubuntu', sans-serif;
      background-color: var(--bg);
      font-size: 18px;
@@ -70,6 +70,7 @@
     border: 1px solid var(--gray);
     color: var(--text-color);
     font-weight: bold;
+    background-color: #F4F4F4;
 }
 
 .header__search {
@@ -251,7 +252,9 @@
         text-align: center;
     }
 
-
+    .header__logo {
+        width: 40%;
+    }
 }
 
 /* акции и предложения */
