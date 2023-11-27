@@ -362,6 +362,7 @@ to {
     .container-text__subtitle {
         font-size: 24px;
     }
+    
 }
 
 @media (max-width: 666px) {
@@ -387,9 +388,8 @@ to {
 }
 
 @media (max-width: 402px) {
-    .container-img__img {
-        margin: 0 auto;
-
+    .offers {
+        height: 90%;
     }
 }
 
