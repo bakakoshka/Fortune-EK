@@ -252,6 +252,11 @@
     .header__logo {
         width: 40%;
     }
+
+    .header__search {
+        width: 30%;
+    }
+
 }
 
 /* акции и предложения */
