@@ -262,7 +262,7 @@
 /* акции и предложения */
 
 .offers {
-    background-image: url(../img/background.png);
+    background-image: url(../img/background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
