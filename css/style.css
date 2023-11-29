@@ -698,6 +698,7 @@ input::placeholder, .form_textarea::placeholder {
 
 .form_input, .form_textarea {
     width: 100%;
+    font-size: 20px;
 }
 
 .line {
