@@ -60,6 +60,7 @@
     display: flex;
     width: 100%;
     padding: 15px 8px;
+    font-size: 20px;
 }
 
 .search-text::placeholder {
